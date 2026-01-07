@@ -56,8 +56,10 @@ export default function Form() {
         <div>
           <button type="submit">Submit</button>
         </div>
-        <div>{displayName && <span>Full Name: {displayName}</span>}</div>
       </form>
+      <div className={styles.displayname}>
+        {displayName && <span>Full Name: {displayName}</span>}
+      </div>
     </div>
   );
 }
