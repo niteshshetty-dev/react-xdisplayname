@@ -19,10 +19,10 @@ export default function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setDisplayName(name.firstName + " " + name.lastName);
-    setName({
-      firstName: "",
-      lastName: "",
-    });
+    // setName({
+    //   firstName: "",
+    //   lastName: "",
+    // });
   };
 
   return (
