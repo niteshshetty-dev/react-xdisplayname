@@ -32,7 +32,7 @@ export default function Form() {
         name="formData"
         className={styles.form}
       >
-        <h1>Full Name display</h1>
+        <h1>Full Name Display</h1>
         <div>
           <label htmlFor="firstName">First Name:</label>
           <input
@@ -54,7 +54,7 @@ export default function Form() {
           />
         </div>
         <div>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </div>
         <div>{displayName && <span>Full Name: {displayName}</span>}</div>
       </form>
